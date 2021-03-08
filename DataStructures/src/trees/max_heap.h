@@ -3,8 +3,7 @@
 #include <stdbool.h>
 #include <stdlib.h>
 
-// Dynamically Allocated Generic Heap
-// (min/max determined by comparing function)
+// Dynamically Allocated Max Heap
 typedef struct maxheap {
     void **arr;
     int size;
