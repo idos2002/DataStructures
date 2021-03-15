@@ -39,6 +39,12 @@
     <ClInclude Include="src\trees\max_heap.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\trees\min_heap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\trees\avl_tree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\lists\circular_linked_list.c">
@@ -63,6 +69,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\trees\max_heap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\trees\min_heap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\trees\avl_tree.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -25,8 +25,10 @@
     <ClInclude Include="src\stacks\dynamic_stack.h" />
     <ClInclude Include="src\lists\linear_linked_list.h" />
     <ClInclude Include="src\stacks\static_stack.h" />
+    <ClInclude Include="src\trees\avl_tree.h" />
     <ClInclude Include="src\trees\binary_tree.h" />
     <ClInclude Include="src\trees\max_heap.h" />
+    <ClInclude Include="src\trees\min_heap.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\lists\circular_linked_list.c" />
@@ -35,8 +37,10 @@
     <ClCompile Include="src\stacks\dynamic_stack.c" />
     <ClCompile Include="src\lists\linear_linked_list.c" />
     <ClCompile Include="src\stacks\static_stack.c" />
+    <ClCompile Include="src\trees\avl_tree.c" />
     <ClCompile Include="src\trees\binary_tree.c" />
     <ClCompile Include="src\trees\max_heap.c" />
+    <ClCompile Include="src\trees\min_heap.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

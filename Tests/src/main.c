@@ -20,6 +20,8 @@ int main()
     // squeue_test();
 
     /// Trees
+    avl_test();
     // bt_test();
-    maxheap_test();
+    // maxheap_test();
+    // minheap_test();
 }
